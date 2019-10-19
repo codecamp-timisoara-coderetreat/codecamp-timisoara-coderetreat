@@ -1,37 +1,76 @@
 <nav class="navbar navbar-dark bg-dark">
   <span class="navbar-brand mb-0 h1">CODECAMP_ CODERETREAT</span>
 </nav>
+<div class="d-flex justify-content-center flex-wrap mt-4">
 
-<div class="d-flex justify-content-center flex-wrap ">
-  <div class="card text-center m-3">
-    <div class="card-body mt-4">
-      <h1 class="card-title">Java</h1>
+  <div class="card mr-2" style="width: 20%;">
+    <div class="card-header">
+      Conway's Game of Life rule 1
+    </div>
+    <div class="card-body">
+      Any live cell with fewer than two live neighbours dies (referred to as underpopulation
+      or exposure)
     </div>
   </div>
-  <div class="card text-center m-3">
-    <div class="card-body mt-4">
-      <h1 class="card-title">Javascript</h1>
+  <div class="card mr-2" style="width: 20%;">
+    <div class="card-header">
+      Conway's Game of Life rule 2
+    </div>
+    <div class="card-body">
+      Any live cell with more than three live neighbours dies (referred to as overpopulation or overcrowding)
     </div>
   </div>
-  <div class="card text-center m-3">
-    <div class="card-body mt-4">
-      <h1 class="card-title">C#</h1>
+  <div class="card mr-2" style="width: 20%;">
+    <div class="card-header">
+      Conway's Game of Life rule 3
+    </div>
+    <div class="card-body">
+      Any live cell with two or three live neighbours lives, unchanged, to the next generation
     </div>
   </div>
-  <div class="card text-center m-3">
-    <div class="card-body mt-4">
-      <h1 class="card-title">Python</h1>
+  <div class="card" style="width: 20%;">
+    <div class="card-header">
+      Conway's Game of Life rule 4
     </div>
-  </div>
-  <div class="card text-center m-3">
-    <div class="card-body mt-4">
-      <h1 class="card-title">Ruby</h1>
-    </div>
-  </div>
-  <div class="card text-center m-3">
-    <div class="card-body mt-4">
-      <h1 class="card-title">Go</h1>
+    <div class="card-body">
+      Any dead cell with exactly three live neighbours will come to life
     </div>
   </div>
 </div>
-<router-outlet></router-outlet>
+<div class="d-flex justify-content-center flex-wrap ">
+  <a href="https://github.com/codecamp-timisoara-coderetreat/java-starter/archive/master.zip">
+    <div class="card text-center m-3">
+      <div class="card-body mt-4">
+        <h1 class="card-title">Java</h1>
+      </div>
+    </div>
+  </a>
+  <a href="https://github.com/codecamp-timisoara-coderetreat/javascript-starter/archive/master.zip">
+    <div class="card text-center m-3">
+      <div class="card-body mt-4">
+        <h1 class="card-title">Javascript</h1>
+      </div>
+    </div>
+  </a>
+  <a href="https://github.com/codecamp-timisoara-coderetreat/csharp-starter/archive/master.zip">
+    <div class="card text-center m-3">
+      <div class="card-body mt-4">
+        <h1 class="card-title">C#</h1>
+      </div>
+    </div>
+  </a>
+  <a href="https://github.com/codecamp-timisoara-coderetreat/ruby-tsr-coderetreat-starter/archive/master.zip">
+    <div class="card text-center m-3">
+      <div class="card-body mt-4">
+        <h1 class="card-title">Ruby</h1>
+      </div>
+    </div>
+  </a>
+  <a href="https://github.com/Lavinia-Dan/go-tsr-coderetreat-starter/archive/master.zip">
+    <div class="card text-center m-3">
+      <div class="card-body mt-4">
+        <h1 class="card-title">Go</h1>
+      </div>
+    </div>
+  </a>
+</div>
